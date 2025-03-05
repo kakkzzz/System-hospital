@@ -32,7 +32,7 @@ function Patient() {
                   <th>ទីកន្លែងកំណើត</th>
                   <th>ប្រភេទជំងឺ</th>
                   <th>លេខទូរស័ព្ទ</th>
-                  <th>View</th>
+                  <th>Option</th>
                 </tr>
               </thead>
               <tbody>
@@ -46,10 +46,13 @@ function Patient() {
                   <td>ខ្នាចរមាស បវេល  បាត់ដំបង</td>
                   <td>លើសសម្ពាធឈាម</td>
                   <td>01223333333</td>
-                  <td><button className="bg-yellow-500 w-[70px] p-1 rounded-lg">View</button></td>
+                  <td>
+                    <button className="bg-yellow-500 w-[70px] p-1 rounded-lg">Update</button>
+                    <button className="bg-red-500 w-[70px] p-1 rounded-lg">Delete</button>
+                  </td>
                 </tr>
                 <tr className="bg-white">
-                  <th>1</th>
+                  <th>2</th>
                   <td>ថ្សល្កសរនមតនរក្េិ</td>
                   <td>ស្រី</td>
                   <td>12</td>
@@ -57,7 +60,10 @@ function Patient() {
                   <td>ខ្នាចរមាស បវេល  បាត់ដំបង</td>
                   <td>លើសសម្ពាធឈាម</td>
                   <td>01223333333</td>
-                  <td><button className="bg-yellow-500 w-[70px] p-1 rounded-lg">View</button></td>
+                  <td>
+                    <button className="bg-yellow-500 w-[70px] p-1 rounded-lg">Update</button>
+                    <button className="bg-red-500 w-[70px] p-1 rounded-lg">Delete</button>
+                  </td>
                 </tr>
               </tbody>
             </table>

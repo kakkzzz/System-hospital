@@ -3,7 +3,7 @@
 function Dashboard() {
   return (
     <>
-       <div className="font-style: font-serif">
+       <div>
           សួស្តី
        </div>
     </>

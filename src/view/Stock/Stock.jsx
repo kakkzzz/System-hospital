@@ -2,10 +2,11 @@
 
 function Stock() {
   return (
-    <>
-        <div>kkkklkkkkkkkkkkkkkkkkkkkkkkkkk</div>
-    </>
+    <div>
+      vffffffffffffffff
+    </div>
   )
 }
 
 export default Stock
+

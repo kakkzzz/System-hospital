@@ -8,4 +8,16 @@
     font-weight: 400;
     font-style: normal;
   } */
+  body {
+    font-family: 'Battambang', sans-serif;
+  }
+  @font-face {
+    font-family: 'MyKhmerFont';
+    src: url('/fonts/my-khmer-font.ttf') format('truetype');
+  }
+  
+  .khmer-custom {
+    font-family: 'MyKhmerFont', sans-serif;
+  }
+  
   
