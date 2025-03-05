@@ -10,21 +10,21 @@ function SignIn() {
                        </div>
                        <form>
                             <div className="w-[400px] py-10">
-                                    <label className="font-bold">Email</label>
+                                    <label className="font-bold">អ៊ីម៉ែល</label>
                                     <input
                                     // onChange={setEmail}
                                     type="email" 
-                                    placeholder="Enter your email"
+                                    placeholder="សូមបញ្ចូលអ៊ីម៉ែលរបស់អ្នក"
                                     className="input input-bordered w-full bg-gray-200"
                                     required
                                     />
                                 </div>
                                 <div className="w-[400px]">
-                                    <label className="font-bold">Password</label>
+                                    <label className="font-bold">លេខសម្ងាត់</label>
                                     <input
                                     // onChange={setPassword}
                                     type="password" 
-                                    placeholder="Enter your password"
+                                    placeholder="សូមបញ្ចូលលេខសម្ងាត់របស់អ្នក"
                                     className="input input-bordered w-full bg-gray-200"
                                     required
                                     />

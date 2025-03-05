@@ -4,7 +4,7 @@ function Patient() {
   return (
     <>
         <div className="text-[20px]">
-          <div className="py-2 flex justify-between px-4">
+          <div className="py-2 flex justify-between px-4 font-bold">
             <p className="">បញ្ជីអ្នកជំងឺទាំងអស់</p>
         </div>
         <div className="px-2 py-1 ">
@@ -39,7 +39,7 @@ function Patient() {
                 {/* row 2 */}
                 <tr className="bg-white">
                   <th>1</th>
-                  <td>ថ្សល្កសរនមតនរក្េិ</td>
+                  <td>ថ្សល្កសរនម</td>
                   <td>ស្រី</td>
                   <td>12</td>
                   <td>22/មិថុនា/2003</td>
@@ -53,7 +53,7 @@ function Patient() {
                 </tr>
                 <tr className="bg-white">
                   <th>2</th>
-                  <td>ថ្សល្កសរនមតនរក្េិ</td>
+                  <td>ថ្សល្កសរន</td>
                   <td>ស្រី</td>
                   <td>12</td>
                   <td>22/មិថុនា/2003</td>
