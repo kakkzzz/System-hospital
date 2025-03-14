@@ -7,7 +7,7 @@ function CreateLayout() {
       <main className="items-start">
         <div className="flex justify-self-auto gap-10 items-center text-[20px] bg-white py-2">
         <div>
-            <NavLink to={"/create/information"}
+            <NavLink to={"/information"}
              className="py-[5px] aria-[current=page]:bg-gray-200  px-[15px] rounded-r-sm ">ព័ត៍មានអ្នកជម្ងឺ</NavLink>
           </div>
           <div>

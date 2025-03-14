@@ -26,7 +26,12 @@ function App() {
                 <Route path="/" element={<Dashboard/>}></Route>
             {/* Create */}
                 <Route path="/create" element={<CreateLayout/>}></Route>
-                <Route path="/create/information" element={<Information_Patient/>}></Route>
+                <Route path="/information" element={<Information_Patient/>}></Route>
+                <Route path="/signs of life" element={<Information_Patient/>}></Route>
+                <Route path="/dianosis" element={<Information_Patient/>}></Route>
+                <Route path="/blood results" element={<Information_Patient/>}></Route>
+                <Route path="/doctor" element={<Information_Patient/>}></Route>
+
             {/* Patient */}
                 <Route path="/patient" element={<Patient/>}></Route>
             {/* Stock */}
