@@ -15,12 +15,34 @@ function Patient() {
               <option>អ្នកជំងឺលើសសម្ពាធឈាម</option>
            </select>
 
-           <label className="input">
-            <span>
-              <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g strokeLinejoin="round" strokeLinecap="round" strokeWidth="2.5" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></g></svg>
-            </span>
-            <input type="search" className="grow" placeholder="Search" />
-          </label>
+          {/* <div>
+            <label className="input">
+              <span>
+                <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g strokeLinejoin="round" strokeLinecap="round" strokeWidth="2.5" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></g></svg>
+              </span>
+              <input type="search" className="grow" placeholder="Search" />
+            </label>
+          </div> */}
+          <div className="bg-white px-10 input text-[20px] flex items-center gap-2">
+                  <span className="">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      fill="currentColor"
+                      className="h-4 w-4 opacity-70"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                  <input
+                    type="text"
+                    placeholder="ស្វែងរក"
+                  />
+                </div>
 
         </div>
           <div className="overflow-x-auto py-10">
