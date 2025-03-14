@@ -5,9 +5,9 @@ function Dashboard() {
     <>
       <main className="flex">
         <div>
-          <div className="bg-gray-200  min-h-screen w-[810px]">
+          <div className="bg-gray-200  min-h-screen">
             <div className="py-20">
-              <h1 className="text-[25px] px-[180px] py-4">ស្វែងរក</h1>
+              <h1 className="text-[25px] py-4">ស្វែងរក</h1>
               <div className="flex justify-center ">
                 <div className="bg-white px-20 input text-[20px] flex items-center gap-2">
                   <span className="">

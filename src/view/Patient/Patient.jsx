@@ -14,7 +14,7 @@ function Patient() {
               <option>អ្នកជំងឺទឹកនោមផ្អែម</option>
               <option>អ្នកជំងឺលើសសម្ពាធឈាម</option>
            </select>
-          <div className="bg-white px-10 input text-[20px] flex items-center gap-2">
+          <div className="bg-white input  flex items-center gap-2">
                   <span className="">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

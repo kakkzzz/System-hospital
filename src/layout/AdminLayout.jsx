@@ -6,7 +6,7 @@ function AdminLayout() {
         <header className="bg-blue-600 flex items-center justify-between px-4 py-3 text-white  text-[25px]">
             <h1>ប្រព័ន្ធគ្រប់គ្រងបន្ទប់ពិគ្រោះថែទាំ ស៊ុំ នារ៉ា</h1>
         </header>
-            <main className="flex items-start">
+            <main className="flex items-start min-w-fit">
             <div className= "w-[300px] bg-white shadow h-screen text-[20px] p-5">
                <div className="10 items-center">
                <ul>
@@ -63,7 +63,7 @@ function AdminLayout() {
                 </ul>
                </div>
             </div>
-           <div className="bg-gray-200 grow h-screen">
+           <div className="bg-gray-200 p-4 grow h-screen">
             {/* < div className="bg-blue-500 flex items-center justify-between px-8 py-8 text-white font-semibold">
             <h1>Name of Hospital</h1>
             </div> */}
