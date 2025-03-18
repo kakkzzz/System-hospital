@@ -8,14 +8,17 @@ import Stock from "./view/Stock/Stock"
 import Setting from "./view/Setting/Setting"
 import SignIn from "./view/SignIn"
 import { Toaster } from "react-hot-toast"
-import CreateLayout from "./layout/Create_New_Patient"
+// import ResponsiveBox from "./view/components/Responsive"
 import Information_Patient from "./view/Patient/Create/Information_Patient"
+import Sgin_of_Life from "./view/Patient/Create/Sgin_of_Life"
 
 
 function App() {
  return(
   <>
+ 
     <BrowserRouter>
+     {/* <ResponsiveBox> */}
         <Routes>
 
             {/* SignIN */}
@@ -25,9 +28,9 @@ function App() {
 
                 <Route path="/" element={<Dashboard/>}></Route>
             {/* Create */}
-                <Route path="/create" element={<CreateLayout/>}></Route>
+                {/* <Route path="/create" element={<CreateLayout/>}></Route> */}
                 <Route path="/information" element={<Information_Patient/>}></Route>
-                <Route path="/signs of life" element={<Information_Patient/>}></Route>
+                <Route path="/signs-of-life" element={<Sgin_of_Life/>}></Route>
                 <Route path="/dianosis" element={<Information_Patient/>}></Route>
                 <Route path="/blood results" element={<Information_Patient/>}></Route>
                 <Route path="/doctor" element={<Information_Patient/>}></Route>
@@ -43,6 +46,7 @@ function App() {
 
             </Route>
         </Routes>
+         {/* </ResponsiveBox> */}
     </BrowserRouter>
     <Toaster/>
   </>

@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import Address from "../../components/Address";
 
 function Dashboard() {
   return (
@@ -6,10 +7,10 @@ function Dashboard() {
       <main className="flex">
         <div>
           <div className="bg-gray-200  min-h-screen">
-            <div className="py-20">
-              <h1 className="text-[25px] py-4">ស្វែងរក</h1>
-              <div className="flex justify-center ">
-                <div className="bg-white px-20 input text-[20px] flex items-center gap-2">
+            <div className="py-20 w-[750px]">
+              <h1 className="text-[25px] py-4 px-[180px]">ស្វែងរក</h1>
+              <div className=" px-[180px] ">
+                <div className="bg-white px-10 w-[500px] input text-[20px] flex items-center gap-2">
                   <span className="">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -30,53 +31,8 @@ function Dashboard() {
                   />
                 </div>
               </div>
-              <div className="py-4 px-[180px]">
-                <div className="py-4">
-                  <h1 className="text-[20px] py-1">ខេត្ត</h1>
-                  <select className="select select-bordered w-full max-w-90  text-[20px]">
-                    <option disabled selected>
-                      ជ្រើសរើស
-                    </option>
-                    <option>បាត់ដំបង</option>
-                    <option>សៀមរាប</option>
-                    <option>កំពត់</option>
-                  </select>
-                </div>
-                <div className="py-2">
-                  <h1 className="text-[20px] py-1">ស្រុក</h1>
-                  <select className="select select-bordered w-full max-w-90  text-[20px]">
-                    <option disabled selected>
-                      ជ្រើសរើស
-                    </option>
-                    <option>បាត់ដំបង</option>
-                    <option>សៀមរាប</option>
-                    <option>កំពត</option>
-                  </select>
-                </div>
-                <div className="py-2">
-                  <h1 className="text-[20px] py-1">ឃុំ</h1>
-                  <select className="select select-bordered w-full max-w-90  text-[20px]">
-                    <option disabled selected>
-                      ជ្រើសរើស
-                    </option>
-                    <option>បាត់ដំបង</option>
-                    <option>សៀមរាប</option>
-                    <option>កំពត</option>
-                  </select>
-                </div>
-                <div className="py-2">
-                  <h1 className="text-[20px] py-1">ភូមិ</h1>
-                  <select className="select select-bordered w-full max-w-90  text-[20px]">
-                    <option disabled selected>
-                      ជ្រើសរើស
-                    </option>
-                    <option>បាត់ដំបង</option>
-                    <option>សៀមរាប</option>
-                    <option>កំពត</option>
-                  </select>
-                </div>
-              </div>
-              <div className=" px-[425px]">
+              <div className="py-4 px-[180px] text-[20px]"><Address/></div>
+              <div className="flex justify-end px-[70px]">
                 <div className="bg-blue-600 w-[200px] text-white p-4 rounded-lg text-center">
                   <button>ស្វែងរក</button>
                 </div>
@@ -85,14 +41,14 @@ function Dashboard() {
           </div>
         </div>
         <div>
-          <div className="bg-gray-200 w-[810px] flex justify-center py-40 ">
+          <div className="bg-gray-200 w-[750px] flex justify-center items-center py-40 ">
             <div className="w-[400px] bg-white  p-20 rounded-lg">
               <h1 className="flex justify-center text-[30px]">
                 ការចុះឈ្មោះចូល
               </h1>
               <div className="block py-6 flex justify-center  ">
                 <Link
-                  to="/create"
+                  to="/information"
                   className="bg-blue-600 text-white rounded-lg items-center p-4 text-[20px]">
                   + បញ្ជូលអ្នកជម្ងឺថ្មឺ
                 </Link>
