@@ -5,15 +5,15 @@ function Information_Patient() {
   return (
     <>
       <CreateLayout />
-      <div className=" bg-white">
-        <header className="flex justify-center text-[22px] py-4 font-semibold">
+      <div className=" bg-white overflow-auto overscroll-contain">
+        <header className="flex justify-center text-[22px] py-3 font-semibold">
           ព័ត៍មានលម្អិតរបស់អ្នកជំងឺ
         </header>
         <div className="flex">
-          <div className=" w-[750px]  px-[100px]">
+          <div className=" w-[750px]  px-[100px] h-[800px]">
             <div className="text-[18px]">
-              <p className="py-2 ">លេខសម្គាល់ 0001</p>
-              <p className="py-2">ថ្ងៃខែចូលពិនិត្យ</p>
+              <p className="py-1 ">លេខសម្គាល់ 0001</p>
+              <p className="py-1">ថ្ងៃខែចូលពិនិត្យ</p>
               <div className="bg-gray-200 px-10 input text-[15px] flex items-center w-[550px] py-2">
                 <input type="text" placeholder="ថ្ងៃខែចូលពិនិត្យ" />
               </div>
@@ -28,10 +28,10 @@ function Information_Patient() {
                 </div>
               </div>
               <p className="py-1">ឈ្មោះជាឡាតាំង</p>
-              <div className=" bg-gray-200 px-10 input text-[15px] flex items-center w-[550px] py-2 ">
+              <div className=" bg-gray-200 px-10 input text-[15px] flex items-center w-[550px] py-1 ">
                 <input type="text" placeholder="ឈ្មោះជាឡាតាំង" />
               </div>
-              <div className="text-[18px] py-2 flex items-center gap-10 space-x-4">
+              <div className="text-[18px] py-3 flex items-center gap-10 space-x-4">
                 <p className="text-[20px]">ភេទ</p>
                 <label htmlFor="">
                   <input
@@ -47,13 +47,13 @@ function Information_Patient() {
                   ស្រី
                 </label>
               </div>
-              <div className="py-2">
+              <div className="py-1">
                 <p className="py-1">ថ្ងៃខែឆ្នាំកំណើត</p>
-                <div className=" bg-gray-200 px-10 input text-[15px] flex items-center w-[550px] py-4">
+                <div className=" bg-gray-200 px-10 input text-[15px] flex items-center w-[550px] py-2">
                   <input type="text" placeholder="ថ្ងៃខែឆ្នាំកំណើត" />
                 </div>
               </div>
-              <div className="py-2">
+              <div className="py-1">
                 <p className="py-1 ">ស្ថានភាពគ្រួសារ</p>
                 <select className="select select-bordered w-[550px] text-[15px]  bg-gray-200">
                   <option disabled selected>
@@ -65,13 +65,13 @@ function Information_Patient() {
                   <option>ពោះម៉ាយ</option>
                 </select>
               </div>
-              <div className=" py-2">
+              <div className=" py-1">
                 <p className="py-1">ជនជាតិ</p>
                 <div className=" bg-gray-200 px-10 input text-[15px] flex items-center w-[550px]">
                   <input type="text" placeholder="ជនជាតិ" />
                 </div>
               </div>
-              <div className=" py-2">
+              <div className=" py-1">
                 <p className="py-1">មុខរបរ</p>
                 <div className=" bg-gray-200 px-10 input text-[15px] flex items-center w-[550px] py-4">
                   <input type="text" placeholder="មុខរបរ" />
@@ -88,7 +88,7 @@ function Information_Patient() {
           <div className=" w-[750px]  px-[100px] ">
             <div className="text-[22px] py-1 ">
               <p>ប្រវត្តិអ្នកជំងឺ</p>
-              <div className="text-[18px] py-4 flex items-center gap-10">
+              <div className="text-[18px] py-4 flex items-center gap-10 px-10">
                 <p className="text-[20px]">
                   ធ្លាប់ដឹងថាខ្លួនកើតជំងឺពីមុនឬអត់ ?
                 </p>
@@ -108,7 +108,7 @@ function Information_Patient() {
               </div>
               <div className="text-[20px] py-1">
                 <p>សកម្មភាពប្រចាំថ្ងៃ</p>
-                <div className="py-4 flex gap-10 ">
+                <div className="py-4 flex gap-10  px-10 ">
                   <div>
                   <label className="flex items-center space-x-2 ">
                     <input type="checkbox" className="w-5 h-5" />

@@ -11,6 +11,8 @@ import { Toaster } from "react-hot-toast"
 // import ResponsiveBox from "./view/components/Responsive"
 import Information_Patient from "./view/Patient/Create/Information_Patient"
 import Sgin_of_Life from "./view/Patient/Create/Sgin_of_Life"
+import Dianosis from "./view/Patient/Create/Dianosis"
+import BloodResult from "./view/Patient/Create/BloodResult"
 
 
 function App() {
@@ -31,8 +33,8 @@ function App() {
                 {/* <Route path="/create" element={<CreateLayout/>}></Route> */}
                 <Route path="/information" element={<Information_Patient/>}></Route>
                 <Route path="/signs-of-life" element={<Sgin_of_Life/>}></Route>
-                <Route path="/dianosis" element={<Information_Patient/>}></Route>
-                <Route path="/blood results" element={<Information_Patient/>}></Route>
+                <Route path="/dianosis" element={<Dianosis/>}></Route>
+                <Route path="/blood results" element={<BloodResult/>}></Route>
                 <Route path="/doctor" element={<Information_Patient/>}></Route>
 
             {/* Patient */}

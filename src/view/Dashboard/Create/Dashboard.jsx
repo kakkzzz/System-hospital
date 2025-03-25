@@ -5,8 +5,8 @@ function Dashboard() {
   return (
     <>
       <main className="flex">
-        <div>
-          <div className="bg-gray-200  min-h-screen">
+        <div className="overflow-auto overscroll-contain">
+          <div className="bg-gray-200 ">
             <div className="py-20 w-[750px]">
               <h1 className="text-[25px] py-4 px-[180px]">ស្វែងរក</h1>
               <div className=" px-[180px] ">
@@ -46,7 +46,7 @@ function Dashboard() {
               <h1 className="flex justify-center text-[30px]">
                 ការចុះឈ្មោះចូល
               </h1>
-              <div className="block py-6 flex justify-center  ">
+              <div className=" py-6 flex justify-center  ">
                 <Link
                   to="/information"
                   className="bg-blue-600 text-white rounded-lg items-center p-4 text-[20px]">
