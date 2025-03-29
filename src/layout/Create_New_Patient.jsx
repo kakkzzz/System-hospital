@@ -1,14 +1,15 @@
 
 import { NavLink } from "react-router";
+import Responsive from "../view/components/Responsive";
 function CreateLayout() {
   return (
     <>
       <main className="">
-        <div className="flex text-[20px]">
+        <div className="flex text-[20px] py-3">
           <div>
             <NavLink
               to={"/information"}
-              className=" aria-[current=page]:bg-white px-8  rounded-r-lg  py-[10px]"
+              className=" aria-[current=page]:bg-white px-8  rounded-t-xl  py-[10px]"
             >
               ព័ត៍មានអ្នកជម្ងឺ
             </NavLink>
@@ -16,7 +17,7 @@ function CreateLayout() {
           <div>
             <NavLink
               to={"/signs-of-life"}
-              className=" aria-[current=page]:bg-white  px-8  rounded-lg  py-[10px]"
+              className=" aria-[current=page]:bg-white  px-8  rounded-t-lg  py-[10px]"
             >
               សញ្ញាជីវិត
             </NavLink>
@@ -24,7 +25,7 @@ function CreateLayout() {
           <div>
             <NavLink
               to={"/dianosis"}
-              className=" aria-[current=page]:bg-white  px-8  rounded-lg  py-[10px]"
+              className=" aria-[current=page]:bg-white  px-8  rounded-t-lg  py-[10px]"
             >
               រោគវិនិច្ឆ័យ
             </NavLink>
@@ -32,7 +33,7 @@ function CreateLayout() {
           <div>
             <NavLink
               to={"/blood results"}
-              className=" aria-[current=page]:bg-white  px-8  rounded-lg  py-[10px]"
+              className=" aria-[current=page]:bg-white  px-8  rounded-t-lg  py-[10px]"
             >
               លទ្ធផលឈាម
             </NavLink>
@@ -40,7 +41,7 @@ function CreateLayout() {
           <div>
             <NavLink
               to={"/doctor"}
-              className=" aria-[current=page]:bg-white px-8  rounded-lg  py-[10px]"
+              className=" aria-[current=page]:bg-white px-8  rounded-t-lg  py-[10px]"
             >
               វេជ្ជាបញ្ជា
             </NavLink>
@@ -48,6 +49,7 @@ function CreateLayout() {
           <div></div>
         </div>
       </main>
+      <Responsive/>
     </>
   );
 }

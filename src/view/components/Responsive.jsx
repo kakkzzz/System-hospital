@@ -12,4 +12,4 @@ function Responsive() {
   )
 }
 
-export default Responsive
+export default Responsive ;

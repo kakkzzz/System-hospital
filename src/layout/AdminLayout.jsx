@@ -70,7 +70,9 @@ function AdminLayout() {
                 <Outlet/>
            </div>
         </main>
+        
     </div>
+    
   )
 }
 

@@ -1,3 +1,4 @@
+import Responsive from "../components/Responsive"
 
 
 function Patient() {
@@ -88,6 +89,7 @@ function Patient() {
             </table>
           </div>
         </div>
+        <Responsive/>
     </>
   )
 }

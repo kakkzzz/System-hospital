@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import Address from "../../components/Address";
+import Responsive from "../../components/Responsive";
 
 function Dashboard() {
   return (
@@ -57,6 +58,7 @@ function Dashboard() {
           </div>
         </div>
       </main>
+      <Responsive/>
     </>
   );
 }

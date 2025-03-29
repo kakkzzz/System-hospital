@@ -1,15 +1,16 @@
 import CreateLayout from "../../../layout/Create_New_Patient";
+import Responsive from "../../components/Responsive";
 
 function Dianosis() {
   return (
     <>
       <CreateLayout />
       <main className="bg-white">
-        <div className="text-center text-[22px] py-4 font-semibold">
+        <div className="text-center text-[25px] py-4 font-semibold">
           រោគវិច្ឆ័យ
         </div>
         <div className="flex">
-          <div className=" w-[800px] px-[150px] h-[790px]">
+          <div className=" w-[800px] px-[150px] h-[835px]">
             <div className="">
               <p className="text-[20px]">រោគវិច្ឆ័យទី ១</p>
               <div className="text-[20px] my-2  px-[30px]">
@@ -95,6 +96,7 @@ function Dianosis() {
          
         </div>
       </main>
+      <Responsive/>
     </>
   );
 }

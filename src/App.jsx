@@ -13,6 +13,7 @@ import Information_Patient from "./view/Patient/Create/Information_Patient"
 import Sgin_of_Life from "./view/Patient/Create/Sgin_of_Life"
 import Dianosis from "./view/Patient/Create/Dianosis"
 import BloodResult from "./view/Patient/Create/BloodResult"
+import Doctor from "./view/Patient/Create/Doctor"
 
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
                 <Route path="/signs-of-life" element={<Sgin_of_Life/>}></Route>
                 <Route path="/dianosis" element={<Dianosis/>}></Route>
                 <Route path="/blood results" element={<BloodResult/>}></Route>
-                <Route path="/doctor" element={<Information_Patient/>}></Route>
+                <Route path="/doctor" element={<Doctor/>}></Route>
 
             {/* Patient */}
                 <Route path="/patient" element={<Patient/>}></Route>
