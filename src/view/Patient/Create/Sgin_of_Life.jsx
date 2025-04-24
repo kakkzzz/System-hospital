@@ -5,17 +5,16 @@ function Sgin_of_Life() {
   return (
     <>
       <CreateLayout />
-      <main className="bg-white h-[900px]">
+      <main className="bg-white ">
         {/* <div className="text-center text-[22px] py-4 font-semibold"></div> */}
         <header className="text-center text-[25px] py-4 font-semibold">
           សញ្ញាជីវិត
         </header>
-        <div className="flex">
-          <div className=" w-[800px] px-[150px] h-[820px] ">
+        <div className="flex ">
+          <div className="px-[150px] ">
             <div className="items-center gap-[30px] flex justify-center py-8">
               <p className="text-[20px]">កំពស់</p>
               <div className="bg-gray-200 px-10 input text-[18px] flex items-center w-[320px] py-2">
-                {" "}
                 <input type="text" placeholder="កំពស់" />
               </div>
               <p>cm</p>

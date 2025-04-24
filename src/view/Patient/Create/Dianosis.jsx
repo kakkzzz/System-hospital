@@ -10,7 +10,7 @@ function Dianosis() {
           រោគវិច្ឆ័យ
         </div>
         <div className="flex">
-          <div className=" w-[800px] px-[150px] h-[835px]">
+          <div className=" px-[150px] h-[835px]">
             <div className="">
               <p className="text-[20px]">រោគវិច្ឆ័យទី ១</p>
               <div className="text-[20px] my-2  px-[30px]">

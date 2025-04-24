@@ -15,7 +15,7 @@ function Doctor() {
           វេជ្ជាបញ្ជា
         </p>
         <div className="flex h-[1600px] my-3">
-          <div className="w-[800px] px-[50px]">
+          <div className="px-[50px]">
             <div className="flex justify-evenly text-[20px]">
               <label>
                 <input type="radio" name="medicine" value="pill" />

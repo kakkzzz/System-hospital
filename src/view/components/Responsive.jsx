@@ -1,15 +1,10 @@
 
-function Responsive() {
-  return (
-    <div>
-        <div className="mx-auto max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-2xl">
-  <div className="md:flex">
-    <div className="md:shrink-0">
-    </div>
-  </div>
-</div>
-    </div>
-  )
-}
 
-export default Responsive ;
+const ResponsivePage = () => {
+  return (
+    <div className="min-h-screen bg-gray-100 p-4 md:p-8">
+    </div>
+  );
+};
+
+export default ResponsivePage;

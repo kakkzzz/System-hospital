@@ -8,7 +8,7 @@ function Dashboard() {
       <main className="flex">
         <div className="overflow-auto overscroll-contain">
           <div className="bg-gray-200 ">
-            <div className="py-20 w-[750px]">
+            <div className="py-20">
               <h1 className="text-[25px] py-4 px-[180px]">ស្វែងរក</h1>
               <div className=" px-[180px] ">
                 <div className="bg-white px-10 w-[500px] input text-[20px] flex items-center gap-2">
@@ -42,7 +42,7 @@ function Dashboard() {
           </div>
         </div>
         <div>
-          <div className="bg-gray-200 w-[750px] flex justify-center items-center py-40 ">
+          <div className="bg-gray-200 flex justify-center items-center py-40 ">
             <div className="w-[400px] bg-white  p-20 rounded-lg">
               <h1 className="flex justify-center text-[30px]">
                 ការចុះឈ្មោះចូល

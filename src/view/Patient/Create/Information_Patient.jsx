@@ -13,7 +13,7 @@ function Information_Patient() {
           ព័ត៍មានលម្អិតរបស់អ្នកជំងឺ
         </header>
         <div className="flex h-[1650px]">
-          <div className=" w-[750px]  px-[100px]">
+          <div className="   px-[100px]">
             <div className="text-[20px]">
               <p className="py-3 ">លេខសម្គាល់ 0001</p>
               <p className="py-3">ថ្ងៃខែចូលពិនិត្យ</p>

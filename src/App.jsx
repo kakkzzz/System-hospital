@@ -14,12 +14,17 @@ import Sgin_of_Life from "./view/Patient/Create/Sgin_of_Life"
 import Dianosis from "./view/Patient/Create/Dianosis"
 import BloodResult from "./view/Patient/Create/BloodResult"
 import Doctor from "./view/Patient/Create/Doctor"
+import ResponsivePage from "./view/components/Responsive"
+
+
 
 
 function App() {
  return(
   <>
- 
+    
+     
+   
     <BrowserRouter>
      {/* <ResponsiveBox> */}
         <Routes>
@@ -47,11 +52,13 @@ function App() {
             {/* Setting */}
                 <Route path="/setting" element={<Setting/>}></Route>
 
+            
             </Route>
         </Routes>
          {/* </ResponsiveBox> */}
     </BrowserRouter>
     <Toaster/>
+    <ResponsivePage/>
   </>
  )
 }
